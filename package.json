@@ -1,0 +1,17 @@
+{
+  "name": "health360-ussd",
+  "version": "1.0.0",
+  "description": "USSD Telemedicine Service",
+  "main": "ussd.js",
+  "scripts": {
+    "start": "node ussd.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "firebase-admin": "^11.5.0",
+    "africastalking": "^1.2.0",
+    "dotenv": "^16.3.1"
+  }
+}
+
